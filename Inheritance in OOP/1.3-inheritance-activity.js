@@ -31,7 +31,7 @@ class ElectricCar extends Car {
         return `This is a ${this.year} ${this.make} ${this.model} with ${this.numDoors} doors and a battery life of ${this.batterylife} hours.`;
     }
 }
-// Inatances for cars
+// Instances for cars
 const vehicle1 = new Vehicle('Toyota', 'Corolla', 2020);
 const car1 = new Car('Honda', 'Civic', 2021, 4);
 const electricCar1 = new ElectricCar('Tesla', 'Model S', 2020, 4, 10);
