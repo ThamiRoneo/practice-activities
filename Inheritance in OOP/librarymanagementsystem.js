@@ -33,11 +33,11 @@ class audioBook extends Book {
         return `${this.title} by ${this.author}, published in ${this.yearOfPublication}, with a duration of ${this.duration} minutes.`;
     }
 }
-
+// Instances for methods
 const book1 = new Book('Clean Code', 'Robert Martin', 2016);
 const ebook1 = new eBook('JavaScript Guide', 'Donald Reefs', 2020, 50);
 const audio1 = new audioBook('Atomic Habits', 'James Clare', 2015, 65);
-
+// use methods
 console.log(book1.getDetails());
 console.log(ebook1.getDetails());
 console.log(audio1.getDetails());
