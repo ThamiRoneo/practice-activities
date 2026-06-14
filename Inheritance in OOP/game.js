@@ -96,7 +96,7 @@ class Game {
     }
 
     // processCommand method
-    preocessCommand(command) {
+    processCommand(command) {
         const parts = command.toLowerCase().split(" ");
         const action = parts[0];
         const value = parts.slice(1).join(" ");
